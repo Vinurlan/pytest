@@ -19,7 +19,7 @@ class Quote(Resource):
         
         for quote in ai_quotes:
             if(id == quote['id']):
-                return f"Quote with id {id} already exists", 400
+                return "Quote with id already exists", 400
         
         quote = {
             'id': int(id),
