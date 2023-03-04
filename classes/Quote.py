@@ -12,12 +12,7 @@ ai_quotes = [
     {
         "id": 1,
         "author": "Stephen Hawking",
-        "quote": "The development of full artificial intelligence could " +
-                 "spell the end of the human race… " +
-                 "It would take off on its own, and re-design " +
-                 "itself at an ever increasing rate. " +
-                 "Humans, who are limited by slow biological evolution, " +
-                 "couldn't compete, and would be superseded."
+        "quote": "The development of full artificial intelligence could"
     },
     {
         "id": 2,
