@@ -1,6 +1,6 @@
 from flask import render_template, request
 import json
-from db import db, Clients, Trainer, traningplan
+from db import db, Clients, Trainer
 from app import app
 from flask_cors import CORS
 
