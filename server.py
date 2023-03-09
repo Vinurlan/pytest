@@ -1,10 +1,7 @@
-from flask import Flask
-from flask_restful import Api
-from classes.Quote import Quote
+from db import db
+from routes import app
 
-app = Flask(__name__)
-api = Api(app)
-
-api.add_resource(Quote, '/ai-quotes', '/ai-quotes/', '/ai-quotes/<int:id>')
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port='5000')
+    with app.app_context():
+        db.create_all()
+    app.run()
