@@ -1,7 +1,7 @@
 from flask import render_template, request
 import json
-from db import db, Clients, Trainer
-from app import app
+from app.database.db import db, Clients, Trainer
+from application import app
 from flask_cors import CORS
 
 # CORS(app, resources={r"/api/*": {"origins": "http://localhost:8080"}})

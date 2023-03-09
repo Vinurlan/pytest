@@ -1,4 +1,4 @@
-from db import db
+from app.database.db import db
 from routes import app
 
 if __name__ == '__main__':
