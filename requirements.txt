@@ -1,5 +1,5 @@
 flask
 flask-restful
 gunicorn
-flask_sqlalchemy
+Flask-SQLAlchemy
 flask_cors
